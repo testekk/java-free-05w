@@ -5,11 +5,11 @@ git pull origin feature/20241014
 
 # Stage all changes
 # git add [Your file path] ví dụ git add src/VincentLoopExercise.java
-git add gitCommitMac.sh
+git add src/lesson1/Vincent_VariableExercise.java
 
 # Commit changes with a message
 # git commit -m "[Your name]: [Your message]"
-git commit -m "Vincent: Add Git Commit Mac"
+git commit -m "Vincent: Add Bài thực hành 01"
 
 # Push changes to the remote repository
 git push origin feature/20241014
