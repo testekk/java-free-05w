@@ -18,7 +18,7 @@ public class Zoe_Exercise {
     public static void main(String[] args) {
         //region Bài 01
         /* Implement your code here */
-
+int a;
 
         //endregion
 
