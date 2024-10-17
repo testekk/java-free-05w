@@ -1,25 +1,11 @@
 package lesson01;
 
-/**
- * Các bạn sẽ phát triển code của các bạn ở đây, lưu ý mỗi người tạo 01 file và đặt tên theo rule
- * 1. Copy file này, và change name của file theo cú pháp sau: YourName_VariableExercise.java
- *  Ví dụ: Nguyễn Văn An -> NguyenVanAn_VariableExercise.java
- * 2. Truy cập file gitCommitMac.sh hoặc gitCommitWin.bat (Lựa chọn theo HĐH bạn đang sử dụng) và thêm thông tin commit của bạn.
- *   2.1 Tại dòng 8: Thay đường dẫn file của bạn tại [Your file Path] (Ví dụ: src/lesson01/NguyenVanAn_VariableExercise.java)
- *   2.2 Truy cập terminal có sử dụng IntelliJ IDEA: Vào View -> Tool Windows -> Terminal và thực thi dòng lệnh sau:
- *    - Trên Mac: sh gitCommitMac.sh
- *    - Trên Windows: gitCommitWin.bat
- *    2.3 Nếu gặp lỗi về quyền truy cập thì bạn cần cấp quyền cho file .sh hoặc .bat đó, mở terminal và thực thi lệnh sau:
- *    - Trên Mac: chmod +x gitCommitMac.sh
- *    - Trên Windows: Không cần thực thi lệnh này
- *  3. Sau khi thực thi xong, bạn sẽ thấy thông báo "Git commit successfully" trên terminal
- */
 public class BongNT_VariableExercise {
     public static void main(String[] args) {
 
-                //region Bài 01
+        //region Bài 01
         /* Implement your code here */
-        /*Khai báo các biến kiểu int, double, char, boolean, và String.*/
+        /* Khai báo các biến kiểu int, double, char, boolean, và String.*/
         int myNum;
         double myDoubleNum;
         char myChar;
@@ -63,7 +49,36 @@ public class BongNT_VariableExercise {
         //region Bài 02
         /* Implement your code here */
 
+        /* Khai báo và khởi tạo các biến số nguyên, số thực, boolean và chuỗi (mỗi loại 02 biến).*/
+        int x1 = 100;
+        int x2 = 200;
+        double y1 = 100.1;
+        double y2 = 200.2;
+        boolean z1 = true;
+        boolean z2 = false;
+        String w1 = "Hello";
+        String w2 = "World";
 
+        /* Thực hiện các phép toán so sánh với các biến số nguyên và số thực.*/
+        boolean x = x1 > x2;
+        boolean y = y1 > y2;
+
+        /* Thực hiện các phép toán logic với các biến boolean.*/
+        if (z2) {
+            System.out.println("In ra giá trị sai");
+        } else if (z1) {
+            System.out.println("In ra giá trị đúng");
+        } else {
+            System.out.println("Không có giá trị đúng");
+        }
+
+        /* Thực hiện phép toán cộng chuỗi với biến kiểu String.*/
+        String w = w1 + w2;
+
+        /* In kết quả của các phép toán ra màn hình.*/
+        System.out.println("So sanh biến số nguyên: " +x);
+        System.out.println("So sanh biến số thực: " +y);
+        System.out.println("In kiểu String: " + w1 + " " + w2);
         //endregion
     }
 }
