@@ -48,7 +48,6 @@ public class BongNT_VariableExercise {
 
         //region Bài 02
         /* Implement your code here */
-
         /* Khai báo và khởi tạo các biến số nguyên, số thực, boolean và chuỗi (mỗi loại 02 biến).*/
         int x1 = 100;
         int x2 = 200;

@@ -5,7 +5,7 @@ REM Pull new changes from the remote repository
 git pull origin feature/20241014
 
 REM Stage all changes
-git add src/[Tên file cần commit]
+git add src\lesson01\BongNT_VariableExercise.java
 
 REM Commit changes with a message
 REM git commit -m "[Your name]: [Your message]"
