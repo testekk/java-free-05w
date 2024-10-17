@@ -19,7 +19,7 @@ public class Zoe_Exercise {
 
         //region Bài 01
         /* Implement your code here */
-int a;
+
 
         //endregion
 
