@@ -22,12 +22,12 @@ public class LeNga_VariableExercise {
         int numberInt  = 8;
         double numberDouble = 5.5;
         char character = 'b';
-        boolean isFalse =false;
+        boolean isFalse =false;                 // Đặt tên biến cần có ý nghĩa hơn, ví dụ: isActivated, hasValue ...
         String string = "Hello, I'm here!";
 
         //Thực hiện các phép toán
         int sum = numberInt + 2;
-        double multip = numberDouble * sum;
+        double multip = numberDouble * sum;     // Chú ý chính tả biến, ví dụ: multiple
         double division = multip / numberInt;
 
         //Kết quả

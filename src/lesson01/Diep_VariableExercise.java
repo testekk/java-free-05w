@@ -14,13 +14,20 @@ package lesson01;
  *    - Trên Windows: Không cần thực thi lệnh này
  *  3. Sau khi thực thi xong, bạn sẽ thấy thông báo "Git commit successfully" trên terminal
  */
-public class LeThiHongDiep_VariableExercise {
+/*
+ * Review: Vincent: Bạn đã hoàn thành bài tập rất tốt, code sạch, dễ đọc, đúng yêu cầu.
+ * Bài 01: Khai báo và khởi tạo các biến: chưa thực hiện đầy đủ yêu cầu
+ * Bài 02: Chưa thực hiện các phép toán logic với các biến boolean
+ * Bạn có thể tham khảo cách viết comment ở các bài tập khác để cải thiện comment của mình.
+ */
+
+public class Diep_VariableExercise {
     public static void main(String[] args) {
         //region Bài 01
         /* Implement your code here */
         int age = 29;
         double yearTester = 6.5;
-        char a = 'A';
+        char a = 'A';                   // Đặt tên cần có ý nghĩa hơn, ví dụ: grade
         boolean isValidate = true;
         String me = "Tôi tên là Lê Thị Hồng Diệp.";
         double result = age - yearTester;
