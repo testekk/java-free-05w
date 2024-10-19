@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class NguyeThiHuong_VariableExercise_00 {
-    public static void main(String[] args) { // Khai báo và khởi tạo biến với các kiểu dữ liệu khác nhau
+    public static void main(String[] args) {
+        // Khai báo và khởi tạo biến với các kiểu dữ liệu khác nhau
         int tuoi = 32;
         int namsinh = 1992;
         int thangsing = 01;
