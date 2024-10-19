@@ -47,7 +47,7 @@ public class NguyeThiHuong_VariableExercise_00 {
 
         // Tính toán
 
-        System.out.println("-------------------");
+        System.out.println("--------------------");
         System.out.println("Năm sau tuổi của tôi sẽ là: " + (tuoi+1));
         System.out.println("Chiều cao gấp đôi,có thể là: " + (chieucao * 2));
         System.out.println("Số lượng con gấp đôi: " + (socon * 2));
