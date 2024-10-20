@@ -14,11 +14,10 @@ package lesson01;
  *    - Trên Windows: Không cần thực thi lệnh này
  *  3. Sau khi thực thi xong, bạn sẽ thấy thông báo "Git commit successfully" trên terminal
  */
-public class Duy_VariableExercise {
+public class Testek_VariableExercise {
     public static void main(String[] args) {
         //region Bài 01
         /* Implement your code here */
-        // Khai báo các biến
 
 
         //endregion
