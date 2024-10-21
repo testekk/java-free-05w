@@ -14,4 +14,4 @@
    3. Bài 4: Nếu cộng 2 số cùng kiểu thì k cần ép kiểu (cast);
 3. LeNga: Bài làm đúng, nhưng cần chú ý tên biến khi đặt.
 4. Bong: Bài làm đúng, tên biến đặt chưa tuân theo quy chuẩn, đặt tên biến có ý nghĩa hơn.
-5. Chi : Bài làm đúng  nhưng cần chú ý cách đặt tên biến
+5. Chi : Bài làm đúng  nhưng cần chú ý cách đặt tên biến theo quy chuẩn, tên biến nên có nghĩa 

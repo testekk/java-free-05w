@@ -52,7 +52,7 @@ public class VuThiKimChi_VariableExercise {
         //Bài 2: Phát triển chương trình sử dụng 02 biến cùng loại (02 biến int, 02 biến double, 02 biến boolean, 02 biến String) để thực hiện các yêu cầu sau:
 
         //2.1.Sử dụng các phép toán so sánh (==, !=, >, <, >=, <=) với các biến số nguyên và số thực.
-        int a = 10;
+        int a = 10;  // để các tên biến có ý nghĩa
         int b = 20;
         double c = 10.2;
         double d = 20.1;
