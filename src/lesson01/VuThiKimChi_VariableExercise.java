@@ -9,7 +9,7 @@ public class VuThiKimChi_VariableExercise {
         //(int, double, char, boolean, và String).
         int age;
         double height;
-        char Name;
+        char Name; //Chú ý cách khai báo biến, không viết hoa chữ cái đầu tiên, sửa thành => name
         boolean isChecked_Female;
         String fullName;
 
