@@ -72,40 +72,40 @@ public class TestekStringExercise {
         // region Bài 09: Viết một chương trình để nhập một chuỗi từ bàn phím và in ra chuỗi sau khi đã cắt chuỗi từ vị trí đầu tiên đến vị trí thứ hai và từ vị trí thứ ba đến vị trí thứ tư.
         System.out.print("Nhập một chuỗi: ");
         inputStr = scanner.nextLine();
-        System.out.println("Chuỗi sau khi cắt: " + inputStr.substring(0, 2) + inputStr.substring(3, 5));
+        System.out.println("Chuỗi sau khi cắt: " + inputStr.substring(0, 2) + inputStr.substring(2, 4));
         // region
 
         // region Bài 10: Viết một chương trình để nhập một chuỗi từ bàn phím và in ra chuỗi sau khi đã cắt chuỗi từ vị trí đầu tiên đến vị trí thứ hai và từ vị trí thứ ba đến hết chuỗi.
         System.out.print("Nhập một chuỗi với độ dài >= 4: ");
         inputStr = scanner.nextLine();
-        System.out.println("Chuỗi sau khi cắt: " + inputStr.substring(0, 2) + inputStr.substring(3));
+        System.out.println("Chuỗi sau khi cắt: " + inputStr.substring(0, 2) + inputStr.substring(2));
         // region
 
         // region Bài 11: Viết một chương trình để nhập một chuỗi từ bàn phím và in ra chuỗi sau khi đã cắt chuỗi từ vị trí đầu tiên đến vị trí thứ hai và từ vị trí thứ ba đến hết chuỗi, sau đó chuyển tất cả các ký tự trong chuỗi đó thành chữ hoa
         System.out.print("Nhập một chuỗi với độ dài >= 4: ");
         inputStr = scanner.nextLine();
-        String result = inputStr.substring(0, 2) + inputStr.substring(3);
+        String result = inputStr.substring(0, 2) + inputStr.substring(2);
         System.out.println("Chuỗi sau khi cắt và chuyển thành chữ hoa: " + result.toUpperCase());
         // endregion
 
         // region Bài 12: Viết một chương trình để nhập một chuỗi từ bàn phím và in ra chuỗi sau khi đã cắt chuỗi từ vị trí đầu tiên đến vị trí thứ hai và từ vị trí thứ ba đến hết chuỗi, sau đó chuyển tất cả các ký tự trong chuỗi đó thành chữ thường.
         System.out.print("Nhập một chuỗi với độ dài >= 4: ");
         inputStr = scanner.nextLine();
-        result = inputStr.substring(0, 2) + inputStr.substring(3);
+        result = inputStr.substring(0, 2) + inputStr.substring(2);
         System.out.println("Chuỗi sau khi cắt và chuyển thành chữ thường: " + result.toLowerCase());
         // endregion
 
         // region Bài 13: Viết một chương trình để nhập một chuỗi từ bàn phím và in ra chuỗi sau khi đã cắt chuỗi từ vị trí đầu tiên đến vị trí thứ hai và từ vị trí thứ ba đến hết chuỗi, sau đó xóa tất cả các khoảng trắng ở đầu, cuối chuỗi và giữa các từ
         System.out.print("Nhập một chuỗi với độ dài >= 4: ");
         inputStr = scanner.nextLine();
-        result = inputStr.substring(0, 2) + inputStr.substring(3);
+        result = inputStr.substring(0, 2) + inputStr.substring(2);
         System.out.println("Chuỗi sau khi cắt và xóa khoảng trắng: " + result.replaceAll(" ", ""));
         // endregion
 
         // region Bài 14: Viết một chương trình để nhập một chuỗi từ bàn phím và in ra chuỗi sau khi đã cắt chuỗi từ vị trí đầu tiên đến vị trí thứ hai và từ vị trí thứ ba đến hết chuỗi, sau đó thay thế một chuỗi con bằng một chuỗi khác.
         System.out.print("Nhập một chuỗi với độ dài >= 4: ");
         inputStr = scanner.nextLine();
-        result = inputStr.substring(0, 2) + inputStr.substring(3);
+        result = inputStr.substring(0, 2) + inputStr.substring(2);
         System.out.print("Nhập chuỗi con cần thay thế: ");
         oldStr = scanner.nextLine();
         System.out.print("Nhập chuỗi mới: ");
@@ -116,7 +116,7 @@ public class TestekStringExercise {
         // region Bài 15: Viết một chương trình để nhập một chuỗi từ bàn phím và in ra chuỗi sau khi đã cắt chuỗi từ vị trí đầu tiên đến vị trí thứ hai và từ vị trí thứ ba đến hết chuỗi, sau đó chuyển tất cả các ký tự trong chuỗi đó thành chữ hoa và thay thế một chuỗi con bằng một chuỗi khác.
         System.out.print("Nhập một chuỗi với độ dài >= 4: ");
         inputStr = scanner.nextLine();
-        result = inputStr.substring(0, 2) + inputStr.substring(3);
+        result = inputStr.substring(0, 2) + inputStr.substring(2);
         System.out.print("Nhập chuỗi con cần thay thế: ");
         oldStr = scanner.nextLine();
         System.out.print("Nhập chuỗi mới: ");
