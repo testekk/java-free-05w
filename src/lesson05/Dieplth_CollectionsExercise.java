@@ -137,6 +137,8 @@ public class Dieplth_CollectionsExercise {
                 fibonacci.add(fibonacci.get(i-1) + fibonacci.get(i));
                 i++;
             }
+        } else {
+            System.out.println("Vui lòng nhập số lớn hơn 0");
         }
         for(int fibonaci : fibonacci){
             System.out.println(fibonaci);
