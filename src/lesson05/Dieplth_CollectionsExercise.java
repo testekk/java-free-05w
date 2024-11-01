@@ -152,5 +152,17 @@ public class Dieplth_CollectionsExercise {
         System.out.print("Nhập số N: ");
         int n = scanner.nextInt();
         // Implement your code here
+        List<Integer> listNumber = new ArrayList<>();
+        for (int i=1; i<=n; i++) {
+            listNumber.add(i);
+        };
+        int sum = 0;
+        for (int number : listNumber) {
+            if ((number%3 ==0) || (number %5 ==0)){
+                sum += number;
+            };
+        }
+        System.out.println(sum);
+
     }
 }
