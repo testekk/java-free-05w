@@ -79,7 +79,7 @@ public class VuThiKimChi_CollectionsExercise {
             numbers.add(i);
             sum += numbers.get(i);
         }
-//        System.out.println("Tổng các phần tử trong danh sách: " + sum);
+//       System.out.println("Tổng các phần tử trong danh sách: " + sum);
     }
 
     public void sumNumbersArray() {

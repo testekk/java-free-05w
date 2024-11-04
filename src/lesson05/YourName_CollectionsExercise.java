@@ -23,6 +23,7 @@ public class YourName_CollectionsExercise {
         System.out.print("Nhập số phần tử của danh sách: ");
         int n = scanner.nextInt();
         // Implement your code here
+
     }
 
     //2. Bài 2: Tạo một danh sách các chuỗi và in ra các phần tử trong danh sách.
