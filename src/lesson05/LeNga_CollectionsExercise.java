@@ -22,14 +22,21 @@ public class LeNga_CollectionsExercise {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập số phần tử của danh sách: ");
         int n = scanner.nextInt();
-        int[] numbers = new int[n];
-        for (int i=0;i<n;i++){
-            System.out.print("Nhập phần tử thứ "+(i+1)+" của danh sách: ");
-            numbers[i]= scanner.nextInt();
-        }
-        System.out.println("Các phần tử trong danh sách là:");
-        for (int number:numbers) {
-            System.out.println(number);
+
+        if(n>0) {
+
+            int[] numbers = new int[n];
+            for (int i = 0; i < n; i++) {
+                System.out.print("Nhập phần tử thứ " + (i + 1) + " của danh sách: ");
+                numbers[i] = scanner.nextInt();
+            }
+
+            System.out.println("Các phần tử trong danh sách là:");
+            for (int number : numbers) {
+                System.out.println(number);
+            }
+        }else {
+            System.out.print("Số phần tử phải lớn hơn 0");
         }
     }
 
@@ -40,14 +47,21 @@ public class LeNga_CollectionsExercise {
         System.out.print("Nhập số phần tử của danh sách: ");
         int n = scanner.nextInt();
         scanner.nextLine();
-        String[] stringArray = new String[n];
-        for (int i= 0; i<n;i++){
-            System.out.println(" Nhập vào phần tử thứ "+(i+1)+": ");
-            stringArray[i] = scanner.nextLine();
-        }
-        System.out.println("Các phần tử trong danh sách là:");
-        for (String element:stringArray) {
-            System.out.println(element);
+
+        if (n>0) {
+
+            String[] stringArray = new String[n];
+            for (int i = 0; i < n; i++) {
+                System.out.println(" Nhập vào phần tử thứ " + (i + 1) + ": ");
+                stringArray[i] = scanner.nextLine();
+            }
+
+            System.out.println("Các phần tử trong danh sách là:");
+            for (String element : stringArray) {
+                System.out.println(element);
+            }
+        }else {
+            System.out.print("Số phần tử phải lớn hơn 0");
         }
     }
 
@@ -112,20 +126,28 @@ public class LeNga_CollectionsExercise {
     //5. In ra dãy số Fibonacci đến số thứ N được nhập từ bàn phím và tính tổng của dãy số đó
     public void fibonacci() {
         System.out.println("\nBài 5: In ra dãy số Fibonacci đến số thứ N được nhập từ bàn phím và tính tổng của dãy số đó.");
-        List<Integer> fibonacciNumbers = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập số N: ");
         int n = scanner.nextInt();
-        for (int i=0;i<n;i++){
-            if(i<2){
-                fibonacciNumbers.add(i);
-            }else {
-                fibonacciNumbers.add(fibonacciNumbers.get(i - 2) + fibonacciNumbers.get(i - 1));
+
+        if (n>0) {
+            List<Integer> fibonacciNumbers = new ArrayList<>();
+            for (int i = 0; i < n; i++) {
+                if (i < 2) {
+                    fibonacciNumbers.add(i);
+                } else {
+                    fibonacciNumbers.add(fibonacciNumbers.get(i - 2) + fibonacciNumbers.get(i - 1));
+                }
             }
-        }
-        System.out.println("Kết quả là:");
-        for (int fibonacciNumber:fibonacciNumbers) {
-            System.out.println(fibonacciNumber);
+            System.out.println("Kết quả là:");
+            int sum = 0;
+            for (int fibonacciNumber : fibonacciNumbers) {
+                System.out.println(fibonacciNumber);
+                sum +=fibonacciNumber;
+            }
+            System.out.println("Tổng của dãy số Fibonaci đến số N đã nhập là: "+sum);
+        }else {
+            System.out.print("Số phần tử phải lớn hơn 0");
         }
     }
 
@@ -135,11 +157,18 @@ public class LeNga_CollectionsExercise {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhập số N: ");
         int n = scanner.nextInt();
-        System.out.println("Những số chia hết cho 3 hoặc 5 là: ");
-        for (int i =0;i<n;i++){
-            if(i%3==0 || i%5==0){
-                System.out.println(i);
+        if(n>0) {
+            int sum = 0;
+            System.out.println("Những số chia hết cho 3 hoặc 5 là: ");
+            for (int i = 0; i < n; i++) {
+                if (i % 3 == 0 || i % 5 == 0) {
+                    System.out.println(i);
+                    sum +=i;
+                }
             }
+            System.out.println("Tổng các số chia hết cho 3 hoặc 5 của dãy trên là: "+sum);
+        }else {
+            System.out.print("Số phần tử phải lớn hơn 0");
         }
     }
 }
