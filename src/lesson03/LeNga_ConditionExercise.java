@@ -101,11 +101,11 @@ public class LeNga_ConditionExercise {
         if (electricity <= 50){
             bill = electricity *1000;
         }else if (electricity<=100){
-            bill = electricity *1200;
+            bill = (electricity - 50) * 1200 + 50000;
         }else if (electricity<=200){
-            bill = electricity *1500;
+            bill =  (electricity - 100) * 1500 + 110000;
         }else {
-            bill = electricity *2000;
+            bill =(electricity - 200) * 1500 + 260000;
         }
         System.out.println(" Số tiền điện bạn phải trả là: "+bill);
     }
