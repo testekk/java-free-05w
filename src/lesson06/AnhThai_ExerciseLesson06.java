@@ -1,14 +1,16 @@
 package lesson06;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-public class YourName_Exercise {
+public class AnhThai_ExerciseLesson06 {
     public static void main(String[] args) {
-        TestekExercise exercise = new TestekExercise();
-        exercise.calculateLoanInterest();
-        exercise.findGCD();
-        exercise.printShapes();
-        exercise.convertDecimalToBinary();
+        AnhThai_ExerciseLesson06 exercises = new AnhThai_ExerciseLesson06();
+        exercises.calculateLoanInterest();
+        exercises.findGCD();
+        exercises.printShapes();
+        exercises.convertDecimalToBinary();
     }
 
     //1. Bài 1: Xây dựng một ứng dụng cho phép tính tiền cho vay lãi của một ngân hàng.
@@ -22,6 +24,9 @@ public class YourName_Exercise {
         System.out.print("Nhập số tháng cho vay: ");
         int months = scanner.nextInt();
         // Implement your code here
+        double interest = loanAmount * interestRate/100 * months;
+        System.out.print("Lãi phải trả: " + interest );
+
     }
 
     //2. Bài 2: Tìm UCLN của hai số nguyên.
@@ -33,6 +38,13 @@ public class YourName_Exercise {
         System.out.print("Nhập số nguyên b: ");
         int b = scanner.nextInt();
         // Implement your code here
+        int gcd = 1;
+        for (int i = 1; i <= a && i <= b; i++) {
+            if (a % i == 0 && b % i == 0) {
+                gcd = i;
+            }
+        }
+        System.out.print("UCLN cua a va b: " + gcd);
     }
 
     // 3. In ra các hình theo yêu cầu của người dùng.
