@@ -9,8 +9,8 @@ import java.text.DecimalFormat;
 public class VuThiKimChi_Exercise {
     public static void main(String[] args) {
         VuThiKimChi_Exercise exercise = new VuThiKimChi_Exercise();
-        //exercise.calculateLoanInterest();
-        //exercise.findGCD();
+        exercise.calculateLoanInterest();
+        exercise.findGCD();
         exercise.printShapes();
     }
 
