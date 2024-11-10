@@ -12,6 +12,7 @@ public class VuThiKimChi_Exercise {
         exercise.calculateLoanInterest();
         exercise.findGCD();
         exercise.printShapes();
+        exercise.convertDecimalToBinary();
     }
 
     //1. Bài 1: Xây dựng một ứng dụng cho phép tính tiền cho vay lãi của một ngân hàng.
