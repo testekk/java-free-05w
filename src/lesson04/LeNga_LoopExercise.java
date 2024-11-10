@@ -106,7 +106,7 @@ public class LeNga_LoopExercise {
                 min = number;
             }
         }
-        System.out.println("Số nhor nhất trong mảng là: " + min);
+        System.out.println("Số nhỏ nhất trong mảng là: " + min);
     }
 
     // While loop
