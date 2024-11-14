@@ -30,7 +30,7 @@ public class DiepLTHStudent {
     public void setStudentID(int studentID) {
         this.studentID = studentID;
     }
-    public void display() {
+    public void displayStudent() {
         System.out.println("Name: " + getName());
         System.out.println("Age: " + getAge());
         System.out.println("Student ID: " + getStudentID());
@@ -38,6 +38,6 @@ public class DiepLTHStudent {
     public static void main(String[] args) {
         // Implement your code here
         DiepLTHStudent diep = new DiepLTHStudent("James", 20, 1);
-        diep.display();
+        diep.displayStudent();
     }
 }
