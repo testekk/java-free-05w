@@ -1,11 +1,5 @@
-# Tiêu đề
+# Thực hành OOP (Lập trình hướng đối tượng) - Biến
 
-## 1. 
-## 2. 
-```java
-int age = 25;
-```
-
-## 8. Tóm tắt
-- Biến là một tên đại diện cho một vùng nhớ để lưu trữ dữ liệu.
-
+1. [Tính chất kế thừa & Đóng gói](../lesson08): Bao gồm các bài giảng, bài tập thực hành
+   trong Java.
+2. [Tính chất đa hình & trừu tượng](../lesson09): Bao gồm các bài giảng, bài tập thực hành
