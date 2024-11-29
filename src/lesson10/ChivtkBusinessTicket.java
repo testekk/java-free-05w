@@ -35,4 +35,10 @@ public class ChivtkBusinessTicket extends ChivtkTicket {
         this.meal = meal;
         this.seat = seat;
     }
+
+    public void displayTicket(){
+        System.out.println("Business Ticket");
+    }
+
+
 }

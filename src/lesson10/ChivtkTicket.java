@@ -11,7 +11,7 @@ public abstract class ChivtkTicket {
     private LocalTime departureTime;
     private LocalDate arrivalDate;
     private LocalTime arrivalTime;
-    private String passenger;
+    private String passenger; // ChivtPassenger passenger;
 
     public String getId(){
         return id;
@@ -82,7 +82,7 @@ public abstract class ChivtkTicket {
         this.arrivalTime = arrivalTime;
     }
 
-    //DISPLAYINFOR
+    //DISPLAY INFOR
     public void displayInfor(){
         System.out.println("Thông tin vé máy bay");
         System.out.println("- id: "+getId());
